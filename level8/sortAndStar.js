@@ -2,13 +2,13 @@
 
 // The returned value must be a string, and have "***" between each of its letters.
 
-// my solution
+// My Solution
 function twoSort(s) {
   let firstString = s.sort()[0];
   return firstString.split("").join("***");
 }
 
-// other solution
+// Other Solution
 function twoSort(s) {
   return s.sort()[0].split("").join("***");
 }
