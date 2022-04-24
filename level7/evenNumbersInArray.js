@@ -13,3 +13,7 @@ function evenNumbers(array, number) {
   }
   return evens;
 }
+
+// Other Solutions
+const isEven = (n) => n % 2 === 0;
+const evenNumbers = (a, n) => a.filter(isEven).slice(-n);
