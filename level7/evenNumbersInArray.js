@@ -15,5 +15,4 @@ function evenNumbers(array, number) {
 }
 
 // Other Solutions
-const isEven = (n) => n % 2 === 0;
-const evenNumbers = (a, n) => a.filter(isEven).slice(-n);
+var evenNumbers = (arr, num) => arr.filter((el) => el % 2 == 0).slice(-num);
