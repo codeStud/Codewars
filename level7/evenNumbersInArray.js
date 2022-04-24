@@ -14,5 +14,5 @@ function evenNumbers(array, number) {
   return evens;
 }
 
-// Other Solutions
+// Other Solution
 var evenNumbers = (arr, num) => arr.filter((el) => el % 2 == 0).slice(-num);
