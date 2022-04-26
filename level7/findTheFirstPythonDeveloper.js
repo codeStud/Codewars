@@ -12,5 +12,3 @@ function getFirstPython(list) {
     return `There will be no Python developers`;
   }
 }
-
-// Other Solutions
