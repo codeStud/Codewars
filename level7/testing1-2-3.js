@@ -13,5 +13,3 @@
 var number = function (array) {
   return array.map((el, idx) => `${idx + 1}: ` + el);
 };
-
-// Other Solution
