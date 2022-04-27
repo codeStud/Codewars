@@ -15,7 +15,7 @@ function isSameLanguage(list) {
   return count === list.length;
 }
 
-// Other Solutions
+// Other Solutions...
 function isSameLanguage(list) {
   return list.every((e) => e.language === list[0].language);
 }
