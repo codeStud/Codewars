@@ -14,3 +14,5 @@ function numObj(s) {
     return { [num]: String.fromCharCode(num) };
   });
 }
+
+// Other Solutions
