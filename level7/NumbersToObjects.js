@@ -1,5 +1,4 @@
 // You will be given an array of numbers.
-
 // For each number in the array you will need to create an object.
 
 // The object key will be the number, as a string. The value will be the corresponding character code, as a string.
