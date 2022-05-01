@@ -1,3 +1,5 @@
+// An Ironman Triathlon is one of a series of long-distance triathlon races organized by the World Triathlon Corporaion (WTC). It consists of a 2.4-mile swim, a 112-mile bicycle ride and a marathon (26.2-mile)
+
 // My Solution
 function iTri(s) {
   //2.4-mile swim, a 112-mile bicycle ride and a marathon (26.2-mile)
