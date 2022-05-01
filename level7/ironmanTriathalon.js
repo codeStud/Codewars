@@ -12,6 +12,8 @@
 
 // Finally, if the athlete has completed te distance, return "You're done! Stop running!".
 
+// All distance should be calculated to two decimal places.
+
 // My Solution
 function iTri(s) {
   //2.4-mile swim, a 112-mile bicycle ride and a marathon (26.2-mile)
