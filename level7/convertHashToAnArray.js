@@ -16,3 +16,4 @@ function convertHashToArray(hash) {
 }
 
 // Other Solutions
+const convertHashToArray = (o) => Object.entries(o).sort();
