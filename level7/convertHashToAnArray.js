@@ -14,3 +14,5 @@ function convertHashToArray(hash) {
 
   return arr.sort();
 }
+
+// Other Solutions
