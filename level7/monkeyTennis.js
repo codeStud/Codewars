@@ -15,3 +15,18 @@ function ballCollector(detritus) {
 }
 
 // Other Solutions
+function ballCollector(detritus) {
+  return { weight: detritus.filter((x) => x == 58).length * 58 };
+}
+
+function ballCollector(detritus) {
+  var sack = 0;
+
+  detritus.forEach(function (item) {
+    if (item == 58) {
+      sack += 58;
+    }
+  });
+
+  return { weight: sack };
+}
