@@ -32,3 +32,13 @@ function combine(...objArr) {
     return combinedObj;
   }, {});
 }
+
+// Other Solutions
+function combine(...arg) {
+  return arg.reduce((result, obj) => {
+    Object.keys(obj).forEach(
+      (key) => (result[key] = (result[key] || 0) + obj[key])
+    );
+    return result;
+  }, {});
+}
