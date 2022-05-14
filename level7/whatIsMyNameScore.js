@@ -30,3 +30,5 @@ function nameScore(name) {
   }
   return score;
 }
+
+// Other Solutions
