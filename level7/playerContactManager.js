@@ -21,3 +21,5 @@ function playerManager(players) {
 
   return res;
 }
+
+// Other Solutions
