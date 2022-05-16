@@ -13,3 +13,5 @@ function colourAssociation(array) {
 
   return arr;
 }
+
+// Other Solutions
