@@ -15,3 +15,12 @@ class Vector {
 }
 
 // Other Solutions
+class Vector {
+  constructor(x, y) {
+    Object.assign(this, { x, y });
+  }
+
+  add(v) {
+    return new Vector(this.x + v.x, this.y + v.y);
+  }
+}
