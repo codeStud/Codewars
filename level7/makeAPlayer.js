@@ -7,3 +7,17 @@ function Player(name, position, age, dribbling, pass, shoot) {
   this.pass = pass;
   this.shoot = shoot;
 }
+
+// Other Solutions
+class Player {
+  constructor(name, pos, age, dribble, pass, shoot) {
+    Object.assign(this, {
+      name: name,
+      position: pos,
+      age: age,
+      dribbling: dribble,
+      pass: pass,
+      shoot: shoot,
+    });
+  }
+}
