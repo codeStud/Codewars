@@ -15,3 +15,5 @@ function colourAssociation(array) {
 }
 
 // Other Solutions
+const colourAssociation = (array) =>
+  array.map(([colour, association]) => ({ [colour]: association }));
