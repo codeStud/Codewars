@@ -33,3 +33,5 @@ function match(job, candidates) {
   });
   return arr;
 }
+
+// Other Solutions
