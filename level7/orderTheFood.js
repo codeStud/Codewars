@@ -36,5 +36,3 @@ function orderFood(list) {
 
   return res;
 }
-
-//
