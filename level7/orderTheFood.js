@@ -37,4 +37,4 @@ function orderFood(list) {
   return res;
 }
 
-// Other Solution
+// Other Solutions
