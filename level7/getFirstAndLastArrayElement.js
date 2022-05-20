@@ -16,3 +16,5 @@ const last = function (arr) {
 
 Array.prototype.first = first;
 Array.prototype.last = last;
+
+// Other Solution
