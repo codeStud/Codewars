@@ -17,3 +17,5 @@ function findOdd(A) {
     }
   }
 }
+
+// Other Solutions
