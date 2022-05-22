@@ -19,3 +19,4 @@ function findOdd(A) {
 }
 
 // Other Solutions
+const findOdd = (xs) => xs.reduce((a, b) => a ^ b);
