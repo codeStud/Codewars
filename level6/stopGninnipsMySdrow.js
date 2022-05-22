@@ -19,3 +19,5 @@ function spinWords(string) {
 
   return resWords.join(" ");
 }
+
+// Other Solutions
