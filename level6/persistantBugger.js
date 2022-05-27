@@ -18,3 +18,5 @@ function persistence(num) {
 
   return count;
 }
+
+// Other Solutions
