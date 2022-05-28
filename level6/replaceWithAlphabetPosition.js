@@ -18,3 +18,5 @@ function alphabetPosition(text) {
   }
   return str.trim();
 }
+
+// Other Solutions
