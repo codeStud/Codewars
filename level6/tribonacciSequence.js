@@ -19,3 +19,5 @@ function tribonacci(signature, n) {
     return arr;
   }
 }
+
+// Other Solutions
