@@ -14,3 +14,5 @@ var uniqueInOrder = function (iterable) {
   }
   return arr.filter((el, i, arr) => i === 0 || arr[i] !== arr[i - 1]);
 };
+
+// Other Solutions
