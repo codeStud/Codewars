@@ -17,3 +17,12 @@ function narcissistic(value) {
   if (value === sum) return true;
   return false;
 }
+
+// Other Solutions
+function narcissistic(value) {
+  return (
+    ("" + value).split("").reduce(function (p, c) {
+      return p + Math.pow(c, ("" + value).length);
+    }, 0) == value
+  );
+}
