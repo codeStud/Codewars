@@ -44,3 +44,5 @@ function isPangram(string) {
 
   return true;
 }
+
+// Other Solutions
