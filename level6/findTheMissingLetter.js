@@ -18,3 +18,5 @@ function findMissingLetter(array) {
     }
   }
 }
+
+// Other Solutions
