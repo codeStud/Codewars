@@ -52,3 +52,5 @@ function towerBuilder(nFloors) {
 
   return pattern;
 }
+
+// Other Solutions
