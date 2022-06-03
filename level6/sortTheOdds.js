@@ -25,3 +25,5 @@ function sortArray(array) {
 
   return array;
 }
+
+// Other Solutions
