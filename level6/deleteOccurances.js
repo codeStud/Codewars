@@ -25,3 +25,5 @@ function deleteNth(arr, n) {
 
   return res;
 }
+
+// Other Solutions
