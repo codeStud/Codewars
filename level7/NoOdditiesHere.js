@@ -5,4 +5,4 @@ function noOdds(values) {
   return values.filter((el) => el % 2 === 0);
 }
 
-// Other's Solutions
+// Other' Solutions
