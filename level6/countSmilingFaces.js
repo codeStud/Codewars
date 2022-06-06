@@ -24,21 +24,22 @@ function countSmileys(arr) {
     return 0;
   }
 
+  // maintain the order of eye, nose and mouth in validChars
   const validChars = [":", ";", "-", "~", ")", "D"];
 
   return arr.reduce((count, face) => {
-    console.log(face);
-    // ignore invalid face
+    // face can't be more than 3 characters
     if (face.length > 3) {
       return count;
     }
-    // for valid faces, check each character
+
+    // check if face contains only the eye, mouth, and nose characters
     for (let i = 0; i < face.length; i++) {
-      // if even one of the char is invalid, skip the entire face
       if (validChars.indexOf(face[i]) === -1) {
         return count;
       }
     }
+
     // if the face doesn't contain an eye or a mouth, ignore it
     if (
       (face.indexOf(";") === -1 && face.indexOf(":") === -1) ||
@@ -46,6 +47,22 @@ function countSmileys(arr) {
     ) {
       return count;
     }
+
+    // Ignore if the eye, nose(if present), and mouth DON'T appear in the correct order
+    // (mouth position will be automatically correct if eye && nose position correct)
+    if (face.length === 3) {
+      if (
+        (face[0] !== ":" && face[0] !== ";") ||
+        (face[1] !== "-" && face[1] !== "~")
+      ) {
+        return count;
+      }
+    }
+    // No nose face (mouth position will be automatically correct if eye position correct)
+    else if (face[0] !== ":" && face[0] !== ";") {
+      return count;
+    }
+
     // it's a valid face, increment count
     return count + 1;
   }, 0);
