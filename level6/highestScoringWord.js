@@ -27,3 +27,5 @@ function high(x) {
   });
   return maxScoreWord;
 }
+
+// Other Solutions
