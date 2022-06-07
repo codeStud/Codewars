@@ -15,3 +15,5 @@ function isPrime(num) {
     return false;
   }
 }
+
+// Other Solutions
