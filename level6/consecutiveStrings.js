@@ -44,3 +44,21 @@ function longestConsec(strarr, k) {
 
   return longestStr;
 }
+
+// Other Solutions
+function longestConsec(strarr, k) {
+  var n = strarr.length,
+    str = "";
+
+  if ((n = 0 || k > n || k <= 0)) {
+    return str;
+  }
+
+  for (var i = 0; i < strarr.length; i++) {
+    var currentStr = strarr.slice(i, k + i).join("");
+    if (currentStr.length > str.length) {
+      str = currentStr;
+    }
+  }
+  return str;
+}
