@@ -21,3 +21,14 @@ function inArray(array1, array2) {
   }
   return substrings.sort();
 }
+
+// Other Solutions
+function inArray(arr1, arr2) {
+  return arr1
+    .filter(function (needle) {
+      return arr2.some(function (haystack) {
+        return haystack.indexOf(needle) > -1;
+      });
+    })
+    .sort();
+}
