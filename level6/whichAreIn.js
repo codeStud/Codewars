@@ -10,3 +10,14 @@
 // NO DUPLICATES
 
 // My Solution
+function inArray(array1, array2) {
+  let substrings = [];
+  for (let sub of array1) {
+    for (let word of array2) {
+      if (word.includes(sub) && substrings.indexOf(sub) === -1) {
+        substrings.push(sub);
+      }
+    }
+  }
+  return substrings.sort();
+}
