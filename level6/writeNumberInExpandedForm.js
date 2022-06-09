@@ -23,3 +23,5 @@ function expandedForm(num) {
   }
   return arr.join(" + ");
 }
+
+// Other Solutions
