@@ -1,3 +1,6 @@
+// Convert string into following form:
+// wave("hello") => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
+
 // My Solution
 function wave(str) {
   // Code here
