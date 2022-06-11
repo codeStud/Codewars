@@ -16,3 +16,5 @@ function wave(str) {
 
   return arr;
 }
+
+// Other Solutions
