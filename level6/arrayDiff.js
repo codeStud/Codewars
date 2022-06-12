@@ -7,7 +7,7 @@
 
 // arrayDiff([1,2,2,2,3],[2]) == [1,3]
 
-// My Solutions
+// My Solution
 function arrayDiff(a, b) {
   let res = [];
   for (let el of a) {
