@@ -18,7 +18,7 @@ function arrayDiff(a, b) {
   return res;
 }
 
-// Other SolutionS
+// Other Solutions
 function array_diff(a, b) {
   return a.filter((e) => !b.includes(e));
 }
