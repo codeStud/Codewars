@@ -25,3 +25,5 @@ function sumDigPow(a, b) {
 
   return arr.filter((num) => eureka(num));
 }
+
+// Other Solutions
