@@ -2,7 +2,6 @@
 
 // In effect: 89 = 8^1 + 9^2
 // The next number in having this property is 135.
-
 // See this property again: 135 = 1^1 + 3^2 + 5^3
 
 // We need a function to collect these numbers, that may receive two integers a, b that defines the range [a, b] (inclusive) and outputs a list of the sorted numbers in the range that fulfills the property described above.
