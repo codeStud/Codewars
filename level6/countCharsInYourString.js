@@ -11,3 +11,5 @@ function count(string) {
 
   return count;
 }
+
+// Other Solutions
