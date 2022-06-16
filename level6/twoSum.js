@@ -16,3 +16,5 @@ function twoSum(numbers, target) {
 
   return res;
 }
+
+// Other Solutions
