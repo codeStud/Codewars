@@ -1,3 +1,5 @@
+// Given length & widht of a reactangle such that length != width, return the dimensions of the minimum number of squares it can be cut into
+
 // My Solution
 function sqInRect(lng, wdth) {
   if (lng === wdth) {
