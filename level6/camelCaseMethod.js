@@ -15,3 +15,5 @@ String.prototype.camelCase = function () {
     })
     .join("");
 };
+
+// Other Solutions
