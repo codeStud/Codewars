@@ -18,3 +18,5 @@ function toWeirdCase(string) {
     })
     .join(" ");
 }
+
+// Other Solutions
