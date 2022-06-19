@@ -33,3 +33,13 @@ function isValidIP(str) {
 // Other Solutions
 const net = require("net");
 const isValidIP = (s) => net.isIP(s);
+
+function isValidIP(str) {
+  var p = str.split(".");
+  return (
+    p.length == 4 &&
+    p.every(function (s) {
+      return /^\d+$/.test(s) && s >= 0 && s <= 255;
+    })
+  );
+}
