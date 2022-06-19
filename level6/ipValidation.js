@@ -31,3 +31,5 @@ function isValidIP(str) {
 }
 
 // Other Solutions
+const net = require("net");
+const isValidIP = (s) => net.isIP(s);
