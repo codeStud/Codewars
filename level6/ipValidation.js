@@ -29,3 +29,5 @@ function isValidIP(str) {
       (/^[1-9][0-9]*$/.test(num) && !isNaN(num) && num >= 0 && num <= 255)
   );
 }
+
+// Other Solutions
