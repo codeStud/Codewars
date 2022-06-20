@@ -42,3 +42,5 @@ function titleCase(title, minorWords) {
 
   return res.join(" ");
 }
+
+// Other Solutions
