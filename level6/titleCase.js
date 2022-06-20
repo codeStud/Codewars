@@ -44,3 +44,16 @@ function titleCase(title, minorWords) {
 }
 
 // Other Solutions
+function titleCase(title, minorWords) {
+  const minorArr = minorWords ? minorWords.toLowerCase().split(" ") : [];
+  return title
+    .toLowerCase()
+    .split(" ")
+    .map((word, i) => {
+      if (!word) return word;
+      if (minorArr.indexOf(word) !== -1 && i !== 0) return word;
+
+      return word[0].toUpperCase() + word.slice(1);
+    })
+    .join(" ");
+}
