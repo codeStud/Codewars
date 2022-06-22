@@ -42,3 +42,5 @@ function revrot(str, sz) {
 
   return res;
 }
+
+// Other Solution
