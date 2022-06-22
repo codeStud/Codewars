@@ -58,3 +58,5 @@ function goodVsEvil(good, evil) {
     ? res + `Evil eradicates all trace of Good`
     : res + `No victor on this battle field`;
 }
+
+// Other Solutions
