@@ -30,3 +30,5 @@ function parse(data) {
 
   return output;
 }
+
+// Other Solutions
