@@ -14,3 +14,5 @@ var findMissing = function (list) {
   );
   return oddOne - commonDiff;
 };
+
+// Other Solutions
