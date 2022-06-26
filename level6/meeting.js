@@ -13,6 +13,7 @@
 // It can happen that in two distinct families with the same family name two people have the same first name too.
 
 // My Solution
+// None
 
 // Other Solutions
 function meeting(s) {
