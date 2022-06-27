@@ -28,3 +28,5 @@ var encryptThis = function (text) {
 
   return arr.join(" ");
 };
+
+// Other Solutions
