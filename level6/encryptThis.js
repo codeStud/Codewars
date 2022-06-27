@@ -30,3 +30,14 @@ var encryptThis = function (text) {
 };
 
 // Other Solutions
+const encryptWord = (word) =>
+  word[0].charCodeAt() +
+  (word.length > 2 ? word[word.length - 1] : "") +
+  (word.length > 2 ? word.slice(2, -1) : "") +
+  (word[1] || "");
+
+const encryptThis = (text) =>
+  text
+    .split(" ")
+    .map((word) => encryptWord(word))
+    .join(" ");
