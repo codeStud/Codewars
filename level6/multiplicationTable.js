@@ -22,3 +22,5 @@ multiplicationTable = function (size) {
 
   return res;
 };
+
+// Other Solutions
