@@ -13,3 +13,6 @@ function moveZeros(arr) {
 }
 
 // Other Solutions
+var moveZeros = function (arr) {
+  return arr.filter((val) => val !== 0).concat(arr.filter((val) => val === 0));
+};
