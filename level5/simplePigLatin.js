@@ -21,3 +21,5 @@ function pigIt(str) {
     })
     .join(" ");
 }
+
+// Other Solutions
