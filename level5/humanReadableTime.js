@@ -20,3 +20,5 @@ function humanReadable(seconds) {
     "0"
   )}`;
 }
+
+// Other Solutions
