@@ -23,3 +23,5 @@ function validParentheses(parens) {
 
   return stack.length === 0;
 }
+
+// Other Solutions
