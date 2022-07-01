@@ -18,3 +18,5 @@ function dirReduc(arr) {
   }
   return stack;
 }
+
+// Other Solutions
