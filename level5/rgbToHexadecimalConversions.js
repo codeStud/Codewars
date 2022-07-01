@@ -31,3 +31,5 @@ function rgb(r, g, b) {
   });
   return rgbString;
 }
+
+// Other Solutions
