@@ -34,15 +34,10 @@ function rgb(r, g, b) {
 
 // Other Solutions
 function rgb(r, g, b) {
+  function toHex(a) {
+    if (a <= 0) return "00";
+    else if (a >= 255) return "FF";
+    else return a.toString(16).toUpperCase();
+  }
   return toHex(r) + toHex(g) + toHex(b);
-}
-
-function toHex(d) {
-  if (d < 0) {
-    return "00";
-  }
-  if (d > 255) {
-    return "FF";
-  }
-  return ("0" + Number(d).toString(16)).slice(-2).toUpperCase();
 }
