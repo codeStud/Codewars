@@ -17,3 +17,5 @@ function rot13(message) {
     })
     .join("");
 }
+
+// Other Solutions
