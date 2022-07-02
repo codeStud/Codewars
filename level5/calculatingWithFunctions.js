@@ -1,3 +1,5 @@
+// My Solution
+
 function zero(func) {
   // calling func(op1), OR directly returning the op2
   return func ? func(0) : 0;
