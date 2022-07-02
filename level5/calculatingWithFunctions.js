@@ -72,3 +72,5 @@ function dividedBy(op2) {
   // using closure in JS
   return (op1) => Math.floor(op1 / op2);
 }
+
+// Other Solutions
