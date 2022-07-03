@@ -21,3 +21,5 @@ var maxSequence = function (arr) {
 
   return maxSum;
 };
+
+// Other Solutions
