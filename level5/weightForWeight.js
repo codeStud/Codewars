@@ -39,3 +39,5 @@ function orderWeight(strng) {
     })
     .join(" ");
 }
+
+// Other Solutions
