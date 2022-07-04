@@ -23,3 +23,5 @@ function cakes(recipe, available) {
   }
   return bottleNeck;
 }
+
+// Other Solution
