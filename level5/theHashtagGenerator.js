@@ -33,3 +33,5 @@ function generateHashtag(str) {
 
   return hashtag.length > 140 ? false : hashtag;
 }
+
+// Other Solutions
