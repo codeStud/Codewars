@@ -18,3 +18,5 @@ function firstNonRepeatingLetter(s) {
 
   return "";
 }
+
+// Other Solutions
