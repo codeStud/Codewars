@@ -36,7 +36,7 @@ function shallowCompare(x, y) {
 }
 
 function anagrams(word, words) {
-  // I can solve it easily by sorting the words but I wanna do it the little complicated way ; )
+  // I can solve it easily by sorting the words but I wanna do it the little complicated way ;)
   let countWord = {};
   word
     .split("")
