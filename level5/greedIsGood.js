@@ -45,3 +45,5 @@ function score(dice) {
 
   return score;
 }
+
+// Other Solutions
