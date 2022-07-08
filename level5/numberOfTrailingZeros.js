@@ -23,3 +23,5 @@ function zeros(n) {
 
   return res;
 }
+
+// Other Solutions
