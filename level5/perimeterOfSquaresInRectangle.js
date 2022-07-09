@@ -28,3 +28,18 @@ function perimeter(n) {
 }
 
 // Other Solutions
+function fib(n) {
+  var a = 1,
+    b = 1,
+    tmp;
+  while (n-- > 0) {
+    tmp = a;
+    a = b;
+    b += tmp;
+  }
+  return a;
+}
+
+function perimeter(n) {
+  return 4 * (fib(n + 2) - 1);
+}
