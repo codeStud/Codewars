@@ -26,3 +26,5 @@ function perimeter(n) {
   let squareCount = n + 1;
   return 4 * sumOfFib(squareCount);
 }
+
+// Other Solutions
