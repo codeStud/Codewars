@@ -21,3 +21,5 @@ for (let i = 2; i <= n; i++) {
   }
 }
 return factors;
+
+// Other Solutions
