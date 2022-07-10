@@ -33,3 +33,5 @@ function sumPairs(ints, s) {
     else mem[num] = 1;
   }
 }
+
+// Other Solutions
