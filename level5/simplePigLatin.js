@@ -5,7 +5,6 @@
 // pigIt('Hello world !');     // elloHay orldway !
 
 // My Solution
-
 function pigIt(str) {
   // PREP
   // convert string into array
